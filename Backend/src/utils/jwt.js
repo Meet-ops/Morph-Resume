@@ -12,9 +12,9 @@ function verifyToken(token) {
 const cookieOptions = {
     httpOnly: true,
     secure: env.isProd,
-    sameSite: env.isProd ? "strict" : "lax",
+    sameSite: env.isProd ? "none" : "lax",
     maxAge: 7 * 24 * 60 * 60 * 1000,
     path: "/",
 }
 
-module.exports = { signToken, verifyToken, cookieOptions }
+module.exports = { signToken, verifyToken, cookieOptions } 
