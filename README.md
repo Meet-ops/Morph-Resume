@@ -2,7 +2,7 @@
 
 An AI-powered resume optimization platform that parses uploaded resumes, generates an ATS (Applicant Tracking System) compatibility score using Google Gemini, and suggests stronger, industry-relevant wording — with version history so users can track improvements over time.
 
-> **Status:** https://morph-resume-two.vercel.app
+> **App Link:** https://morph-resume-two.vercel.app
 
 ---
 
