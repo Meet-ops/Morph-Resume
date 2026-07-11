@@ -1,7 +1,7 @@
-const env = require("../config/env");
-const { verifyToken } = require("../utils/jwt");
-const ApiError = require("../utils/ApiError");
-const User = require("../models/User");
+const env = require("../config/env.js");
+const { verifyToken } = require("../utils/jwt.js");
+const ApiError = require("../utils/ApiError.js");
+const User = require("../models/User.js");
 
 async function requireAuth(req, res, next) {
     try {
