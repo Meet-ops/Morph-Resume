@@ -3,9 +3,9 @@ const cors = require("cors")
 const cookieParser = require("cookie-parser")
 const morgan = require("morgan")
 
-const env = require("./config/env")
-const connectDB = require("./config/DB")
-const { errorHandler, notFound } = require("./middleware/errorHandler")
+const env = require("./config/env.js")
+const connectDB = require("./config/db.js")
+const { errorHandler, notFound } = require("./middleware/errorHandler.js")
 
 const healthRouter = require("./routes/health.js")
 const authRouter = require("./routes/auth.js")
